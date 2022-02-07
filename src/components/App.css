@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+#container {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 95% 5%;
+  padding: 2rem;
+}
+
+#sidebar {
+  padding: 2rem;
+}
+
+#about {
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / span 2;
+}
